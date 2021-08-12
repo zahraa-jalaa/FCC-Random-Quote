@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+#quote-box {
+  background-color: white;
+  margin: 100px auto;
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#author {
+  align-self: flex-end;
+  margin-top: 10px;
+  position: relative;
+  right: 150px;
+  font-size: 20px;
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.btn {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+#new-quote {
+  margin-right: 20px;
+  padding: 14px 20px;
+  font-size: 16px;
+}
+
+.twitter-btn {
+  padding: 10px;
+}
+.twitter-btn > a {
+  text-decoration: none;
+}
